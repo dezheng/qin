@@ -14,6 +14,7 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+log/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
@@ -149,4 +150,23 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
-packages/Microsoft.Bcl.Build.1.0.14/tools/Microsoft.Bcl.Build.Tasks.dll
+*.FileListAbsolute.txt
+Log/LogInfo.html
+Script.I200.Web/ExportFile/SalesList/
+Script.I200.Web/ImportExcel/Temp/
+Script.I200.Web/ExportFile/TSaleList/
+Script.I200.Web/upload/goods/
+Script.I200.Web/Goods/import/Temp/
+
+Script.I200.Web/Script.I200.Web.idc
+Script.I200.Web/ExportFile/
+.vscode/settings.json
+.vs/config/applicationhost.config
+
+# i200 v2016
+Script.I200.Web/i200_v2.0/settings/node_modules
+Script.I200.Web/i200_v2.0/settings/dist
+Script.I200.Web/i200_v2.0/settings/test/temp
+Script.I200.Web/i200_v2.0/settings/.sass-cache
+Script.I200.Web/i200_v2.0/settings/.tmp
+Script.I200.Web/i200_v2.0/settings/test/bower_components/
